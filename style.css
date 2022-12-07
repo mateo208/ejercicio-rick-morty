@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {  
+    background: #000a0a;
+}
+header{
+    width: 97vw;
+    height: 29rem;
+    background-image: url(img/Rick_and_Morty.webp);
+    background-position: 50px;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-search{
+    height: 2rem;
+    position: relative;
+    text-align: center;
+}
+input{
+    width: 50rem;
+    height: 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background: #0650503b;
+    outline: none;
+    font-size: 1em;
+    font-style: oblique;
+    color: #29f5da;
+}
+.search{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #15aa96;
+    background: #0650509c;
+    transition: all 0.3s;
+}
+.search:hover{
+    color: #98cfc893;
+    background: #101f1f57;
+}
+main {
+  margin-top: 2rem;
+  height: auto;  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+    width: 30rem;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: #a8b1ce25;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    box-shadow: 1px 4px 20px #70a3ac;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.card:hover,
+.card::before{
+    transform:translateX(-5px)translateY(-20px);
+    box-shadow: #2ef0f066 5px 5px, 
+    #2ed9f04d 10px 10px, 
+    #2ef0f033 15px 15px, 
+    #2ef0f01a 20px 20px, 
+    #2ed9f00d 25px 25px;
+    border: #2bcfece7 3px solid;
+}
+.row{
+    width: 70%;
+    height: 100%;  
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.charater{
+    width: 15rem;
+    font-family:serif;
+    position: relative;
+    left: 30%;
+}
+h2{
+    color: #29f5da;
+    text-shadow: 0 0 15px #8affef;
+    text-decoration: underline #2e4a0f;
+    font-style: oblique;
+}
+p{
+    color: #fff;
+    font-size: 1.4em;
+}
+.img-card{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+.container{
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    background: #02272c;
+}
+a{
+    color: #29f5da;
+    text-shadow: 0 0 15px #8affef;
+    text-decoration: underline #2e4a0f;
+    font-style: oblique;
+    font-size: 1.4em;
+}
+
+
+
+
